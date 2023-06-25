@@ -1,0 +1,67 @@
+:root {
+    --primary: #fc5185;
+    --secundary: #364f6b;
+    --primary-dark: #f83771;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    color: black;
+}
+
+.col-md-4 h1 {
+    font-weight: 900;
+    color:black;
+}
+.container {
+    background: url("../imgs/slider-bg.svg") no-repeat ;
+    background-size: contain;
+}
+
+.nav-link {
+    color: black;
+    border-bottom: 2px solid black transparent;
+    transition: all ease .2s;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.button-prim {
+    background-color: var(--primary);
+    transition: all .5s ease;
+}
+
+.button-prim:hover {
+    background-color: var(--primary);
+}
+
+.btn-outline-primary {
+    transition: all .5s ease;
+}
+
+.block {
+    margin-bottom: 80px;
+}
+
+.col-lg-3 {
+    transition: all .25s ease;
+    border-radius: 30px;
+    border: 2px solid var(--primary-dark);
+    padding: 20px;
+    background-color: var(--secundary);
+}
+
+.col-lg-3:hover {
+    transform: translateY(-15px);
+}
+
+p {
+    color: white;
+}
